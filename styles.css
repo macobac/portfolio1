@@ -13,7 +13,7 @@ header {
     flex-direction: column;
     color: #A10F0F;
     align-items: center;
-}    
+}
 
 header h1 {
     font-family: "eight", sans-serif;
@@ -81,4 +81,15 @@ article a {
 
 article a:hover {
     font-weight: 600;
+}
+
+@media (min-width: 1100px) {
+    main {
+        flex-direction: row;
+    }
+
+    article {
+        padding: 7% 2%;
+    }
+    
 }
