@@ -5,7 +5,7 @@
 }
 
 body {
-    margin: 10% 20%;
+    margin: 50px 20%;
 }
 
 header {
@@ -93,4 +93,18 @@ article a:hover {
         padding: 7% 2%;
     }
     
+}
+
+@media (min-width: 1500px) {
+    body {
+        margin: 50px 22%;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    body {
+        margin: 50px 30%;
+    }
+
 }
